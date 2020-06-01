@@ -4,18 +4,17 @@ import keyboard
 import time
 
 def save():
-    # keyboard.press_and_release('alt+tab')
-    # time.sleep(0.3)
-    # keyboard.press_and_release('ctrl+s')
-    # time.sleep(0.3)
-    # keyboard.write('board.html')
-    # time.sleep(0.3)
-    # keyboard.press_and_release('enter')
-    # time.sleep(0.3)
-    # keyboard.press_and_release('left')
-    # time.sleep(0.3)
-    # keyboard.press_and_release('enter')
-    print('saved')
+    keyboard.press_and_release('alt+tab')
+    time.sleep(0.3)
+    keyboard.press_and_release('ctrl+s')
+    time.sleep(0.3)
+    keyboard.write('board.html')
+    time.sleep(0.3)
+    keyboard.press_and_release('enter')
+    time.sleep(0.3)
+    keyboard.press_and_release('left')
+    time.sleep(0.3)
+    keyboard.press_and_release('enter')
     time.sleep(1)
 
 def get_board():

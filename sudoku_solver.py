@@ -1,7 +1,10 @@
+import numpy as np
 from modules import *
-import time
+from modules import control
 
 board_stuff.save()
 board, npboard = board_stuff.get_board()
-
-print(board, npboard)
+solved_board = solver.solve_it(board)
+solved_npboard = np.asarray(board)
+changes_board = solved_npboard - npboard
+control.controller(changes_board)
