@@ -1,6 +1,7 @@
 from bs4 import BeautifulSoup
 import numpy as np
 import keyboard
+import time
 
 def save():
     # keyboard.press_and_release('alt+tab')
@@ -15,6 +16,7 @@ def save():
     # time.sleep(0.3)
     # keyboard.press_and_release('enter')
     print('saved')
+    time.sleep(1)
 
 def get_board():
     ##Fetch board(list of lists) from soduko.com html file
