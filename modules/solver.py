@@ -80,8 +80,8 @@ def solve_it(board):
                 if tally_all_empty() !=0:
                     solve(board)
 
-        if tally_all_empty() == 0:
-            return board
+            if tally_all_empty() == 0:
+                return board
             
         board[y][x] = 0
         a,b = last_loc[-1]
