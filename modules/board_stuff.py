@@ -18,7 +18,11 @@ def save():
     time.sleep(1)
 
 def get_board():
-    ##Fetch board(list of lists) from soduko.com html file
+    
+    '''this function webscrapes the current board on sudoku.com 
+    and returns the board as a nested list, after reconstructing it 
+    using known target values of the grid positions'''
+    
     html_doc = 'C:\\Users\\Sanjay\\sudoku_solver\\boards\\board.html'
 
     with open(html_doc, 'rb') as fp:
