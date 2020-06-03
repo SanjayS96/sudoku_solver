@@ -15,7 +15,7 @@ def save():
     keyboard.press_and_release('left')
     time.sleep(0.3)
     keyboard.press_and_release('enter')
-    time.sleep(1)
+    time.sleep(0.3)
 
 def get_board():
     
