@@ -1,8 +1,6 @@
 import random
 import numpy as np
 from modules import solver
-import keyboard
-import time
 
 def make_random():
     np_z_board = np.zeros([9,9], int)
