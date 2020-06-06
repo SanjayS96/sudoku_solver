@@ -1,6 +1,6 @@
 import itertools
 
-def solve_it(board): 
+def solve_it(board, generator = False): 
     board = board
     def col():
 
@@ -88,5 +88,7 @@ def solve_it(board):
         del last_loc[-1]
         board[a][b] =0
     
-    a = solve(board)
-    return a
+    if generator:
+        return board(col)
+    
+    return solve(board)
