@@ -20,9 +20,9 @@ def controller(c_board):
         x = nonzero_x[i]
         y = nonzero_y[i]
         
-        time.sleep(0.05)
+        time.sleep(0.01)
         win32api.SetCursorPos((mouse_x[x],mouse_y[y]))
-        time.sleep(0.05)
+        time.sleep(0.01)
         click()
 
         answer = c_board[y][x]
