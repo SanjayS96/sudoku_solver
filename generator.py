@@ -27,4 +27,11 @@ def make_random():
     
     return solved
 
-rando_board = make_random()
+
+if __name__ == "__main__":
+    rando_board = make_random()
+    
+    for i in rando_board:
+        print(i)
+    
+    input('Press enter to exit...')

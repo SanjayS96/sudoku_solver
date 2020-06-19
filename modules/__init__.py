@@ -1,1 +1,1 @@
-__all__ = ['board_stuff', 'solver', 'control']
+__all__ = ['board_data', 'solver', 'control']
