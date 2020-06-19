@@ -10,7 +10,7 @@ my first attempt at a GitHub repository.
   - Interact with web-based sudoku puzzles through emulating mouse and keyboard movements
   - Generate unique sudoku puzzles without using seed data
 ### Screenshots 
-![til](https://github.com/SanjayS96/testing_sudoku/tree/development/screenshots/sudoku.gif)
+![](https://github.com/SanjayS96/testing_sudoku/tree/development/screenshots/sudoku.gif)
 ### Requirements
 This program requires pywin32, keyboard, and numpy:
 ```sh
